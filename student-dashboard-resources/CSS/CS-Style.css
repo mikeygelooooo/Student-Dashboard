@@ -1,0 +1,245 @@
+* {
+    font-family: 'Cascadia Code', sans-serif;
+    transition: 0.25s;
+    user-select: none;
+}
+
+h5 {
+    font-weight: bolder;
+}
+
+.main-section {
+    display: flex;
+}
+
+.left-section {
+    width: 70%;
+}
+
+.right-section {
+    width: 30%;
+}
+
+@media (max-width: 1000px) {
+    .left-section {
+        width: 60%;
+    }
+
+    .right-section {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-section {
+        display: block;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+    }
+}
+
+.page-cover {
+    width: 100%;
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+}
+
+.page-icon {
+    font-size: 400%;
+    padding-right: 2.5%;
+}
+
+.title-text,
+.header {
+    font-weight: 600;
+}
+
+.schedule {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 11.75px;
+}
+
+.mon-sched,
+.tue-sched,
+.wed-sched,
+.thu-sched,
+.fri-sched {
+    width: 300px;
+    flex: 0 0 auto;
+}
+
+.mon-sched {
+    background-color: rgb(35, 28, 31);
+}
+
+.tue-sched {
+    background-color: rgb(31, 29, 33);
+}
+
+.wed-sched {
+    background-color: rgb(27, 31, 34);
+}
+
+.thu-sched {
+    background-color: rgb(29, 34, 32);
+}
+
+.fri-sched {
+    background-color: rgb(35, 31, 26);
+}
+
+.mon-tab,
+.tue-tab,
+.wed-tab,
+.thu-tab,
+.fri-tab {
+    width: fit-content;
+}
+
+.mon-tab {
+    background-color: rgb(105, 49, 76);
+}
+
+.tue-tab {
+    background-color: rgb(73, 47, 100);
+}
+
+.wed-tab {
+    background-color: rgb(40, 69, 108);
+}
+
+.thu-tab {
+    background-color: rgb(43, 89, 63);
+}
+
+.fri-tab {
+    background-color: rgb(137, 99, 42);
+}
+
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday {
+    cursor: pointer;
+}
+
+.monday {
+    background-color: rgb(59, 39, 48);
+}
+
+.monday:hover {
+    background-color: rgb(105, 49, 76);
+}
+
+.tuesday {
+    background-color: rgb(48, 39, 57);
+}
+
+.tuesday:hover {
+    background-color: rgb(73, 47, 100);
+}
+
+.wednesday {
+    background-color: rgb(27, 45, 56);
+}
+
+.wednesday:hover {
+    background-color: rgb(40, 69, 108);
+}
+
+.thursday {
+    background-color: rgb(35, 49, 42);
+}
+
+.thursday:hover {
+    background-color: rgb(43, 89, 63);
+}
+
+.friday {
+    background-color: rgb(64, 51, 36);
+}
+
+.friday:hover {
+    background-color: rgb(137, 99, 42);
+}
+
+.sd-button,
+.aap-button,
+.rqe-button,
+.nsm-button,
+.sl-button {
+    border: none;
+    text-align: left;
+}
+
+.sd-button {
+    background-color: rgb(50, 50, 50);
+}
+
+.sd-button:hover {
+    background-color: rgb(75, 75, 75);
+}
+
+.aap-button {
+    background-color: rgb(62, 40, 37);
+}
+
+.aap-button:hover {
+    background-color: rgb(110, 54, 48);
+}
+
+.rqe-button {
+    background-color: rgb(64, 51, 36);
+}
+
+.rqe-button:hover {
+    background-color: rgb(137, 99, 42);
+}
+
+.nsm-button {
+    background-color: rgb(35, 49, 42);
+}
+
+.nsm-button:hover {
+    background-color: rgb(43, 89, 63);
+}
+
+.sl-button {
+    background-color: rgb(27, 45, 56);
+}
+
+.sl-button:hover {
+    background-color: rgb(40, 69, 108);
+}
+
+.student-info {
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12.5px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: darkgray;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: dimgray;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(75, 75, 75);
+}

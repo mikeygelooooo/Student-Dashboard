@@ -1,0 +1,149 @@
+* {
+    font-family: 'Cascadia Code', sans-serif;
+    transition: 0.25s;
+    user-select: none;
+}
+
+h5 {
+    font-weight: bolder;
+}
+
+.main-section {
+    display: flex;
+}
+
+.left-section {
+    width: 70%;
+}
+
+.right-section {
+    width: 30%;
+}
+
+@media (max-width: 1000px) {
+    .left-section {
+        width: 60%;
+    }
+
+    .right-section {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-section {
+        display: block;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+    }
+}
+
+.page-cover {
+    width: 100%;
+}
+
+.page-title {
+    display: flex;
+    align-items: center;
+}
+
+.page-icon {
+    font-size: 400%;
+    padding-right: 2.5%;
+}
+
+.title-text,
+.header {
+    font-weight: 600;
+}
+
+.notes {
+    background-color: rgb(25, 25, 25);
+}
+
+.table {
+    min-width: 890px;
+}
+
+.tab {
+    width: fit-content;
+}
+
+tbody {
+    cursor: pointer;
+}
+
+.sd-button,
+.aap-button,
+.rqe-button,
+.sl-button,
+.cs-button {
+    border: none;
+    text-align: left;
+}
+
+.sd-button {
+    background-color: rgb(50, 50, 50);
+}
+
+.sd-button:hover {
+    background-color: rgb(75, 75, 75);
+}
+
+.aap-button {
+    background-color: rgb(62, 40, 37);
+}
+
+.aap-button:hover {
+    background-color: rgb(110, 54, 48);
+}
+
+.rqe-button {
+    background-color: rgb(64, 51, 36);
+}
+
+.rqe-button:hover {
+    background-color: rgb(137, 99, 42);
+}
+
+.sl-button {
+    background-color: rgb(27, 45, 56);
+}
+
+.sl-button:hover {
+    background-color: rgb(40, 69, 108);
+}
+
+.cs-button {
+    background-color: rgb(48, 39, 57);
+}
+
+.cs-button:hover {
+    background-color: rgb(73, 47, 100);
+}
+
+.student-info {
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12.5px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: darkgray;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: dimgray;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(75, 75, 75);
+}

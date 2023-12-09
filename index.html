@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Student Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="student-dashboard-resources/CSS/Main-Style.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
+
+    <link href="student-dashboard-resources/Resources/Icons/dashboard-icon.svg" rel="icon">
+</head>
+
+<body class="bg-dark text-light">
+    <section class="page-header">
+        <img class="page-cover" src="student-dashboard-resources/Resources/Images/dashboard-cover.jpg" alt="dashboard-cover">
+
+        <section class="page-title container-fluid pt-3 px-5">
+            <i class="page-icon bi bi-mortarboard-fill"></i>
+            <h1 class="title-text">student dashboard</h1>
+        </section>
+    </section>
+
+    <section class="main-section container-fluid px-5">
+        <section class="left-section">
+            <section class="page-subjects container-fluid pt-4">
+                <h3 class="header container-fluid text-bg-secondary py-1">LIST OF SUBJECTS (CURRENT SEMESTER)</h3>
+                <hr>
+
+                <section class="subject-cards">
+                    <div class="card text-light bg-dark bg-dark">
+                        <img class="card-img-top"
+                            src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/952/cached.offlinehbpl.hbpl.co.uk/news/OMP/social-networking_tcm27-95919.jpg"
+                            alt="CCNA">
+                        <div class="card-body rounded-bottom rounded-bottom">
+                            <h6 class="card-title">Introduction to Networks</h6>
+                            <p class="card-text">CCNA 213</p>
+                        </div>
+                    </div>
+                    <div class="card text-light bg-dark">
+                        <img class="card-img-top" src="https://whatsabyte.com/wp-content/uploads/data-science3.jpg"
+                            alt="DSA">
+                        <div class="card-body rounded-bottom">
+                            <h6 class="card-title">Data Structures & Algorithms</h6>
+                            <p class="card-text">IT 213</p>
+                        </div>
+                    </div>
+                    <div class="card text-light bg-dark">
+                        <img class="card-img-top"
+                            src="https://149695847.v2.pressablecdn.com/wp-content/uploads/2021/04/photo-1515879218367-8466d910aaa4-scaled.jpg"
+                            alt="OOP">
+                        <div class="card-body rounded-bottom">
+                            <h6 class="card-title">Object Oriented Programming</h6>
+                            <p class="card-text">IT 233</p>
+                        </div>
+                    </div>
+                    <div class="card text-light bg-dark">
+                        <img class="card-img-top"
+                            src="https://images.inc.com/uploaded_files/image/1920x1080/getty_613881496_360502.jpg"
+                            alt="PT">
+                        <div class="card-body rounded-bottom">
+                            <h6 class="card-title">Platform Technologies</h6>
+                            <p class="card-text">IT 253</p>
+                        </div>
+                    </div>
+                    <div class="card text-light bg-dark">
+                        <img class="card-img-top"
+                            src="https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2021_12_Programming-vs-Web-Development.jpg"
+                            alt="PT">
+                        <div class="card-body rounded-bottom">
+                            <h6 class="card-title">Web Systems & Technologies 1</h6>
+                            <p class="card-text">IT 273</p>
+                        </div>
+                    </div>
+                    <div class="add-subject card border-secondary border-2 bg-dark" style="border: dashed;">
+                        <div class=" add-subject-body">
+                            <h5 class="card-title text-secondary">+ Add Subject</h5>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+            </section>
+
+            <br>
+
+            <section class="page-notes container-fluid">
+                <h3 class="header container-fluid text-bg-secondary py-1">STUDY MATERIALS (CURRENT TERM)</h3>
+                <hr>
+
+                <section class="notes-list container-fluid">
+                    <div class="notes rounded mb-3 p-2">
+                        <div class="tab text-bg-secondary rounded-pill mb-3 p-2">
+                            <h6 class="tab-text">CCNA 213</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Basic Router Configuration</h5>
+                            <h6>Module 10</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Address Resolution</h5>
+                            <h6>Module 09</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Network Layer</h5>
+                            <h6>Module 08</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="add-note container rounded p-2 text-secondary">
+                            <p class="add-note-text">+ New Note</p>
+                        </div>
+                    </div>
+                    <div class="notes rounded mb-3 p-2">
+                        <div class="tab text-bg-secondary rounded-pill mb-3 p-2">
+                            <h6 class="tab-text ">IT 213</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Sorting</h5>
+                            <h6>Module 07</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Trees</h5>
+                            <h6>Module 06</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Queue</h5>
+                            <h6>Module 05</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Stacks</h5>
+                            <h6>Module 04</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="add-note container rounded p-2 text-secondary">
+                            <p class="add-note-text">+ New Note</p>
+                        </div>
+                    </div>
+                    <div class="notes rounded mb-3 p-2">
+                        <div class="tab text-bg-secondary rounded-pill mb-3 p-2">
+                            <h6 class="tab-text ">IT 233</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Traits & Namespace</h5>
+                            <h6>Module 06</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Polymorphism & Interfaces</h5>
+                            <h6>Module 05</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Inheritance</h5>
+                            <h6>Module 04</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Encapsulation & Access Modifiers</h5>
+                            <h6>Module 03</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="add-note container rounded p-2 text-secondary">
+                            <p class="add-note-text">+ New Note</p>
+                        </div>
+                    </div>
+                    <div class="notes rounded mb-3 p-2">
+                        <div class="tab text-bg-secondary rounded-pill mb-3 p-2">
+                            <h6 class="tab-text ">IT 253</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Protection & Security</h5>
+                            <h6>Module 07</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Input/Output Systems</h5>
+                            <h6>Module 06</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>File Management</h5>
+                            <h6>Module 05</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="note container rounded mb-3 p-2">
+                            <h5>Deadlock Management</h5>
+                            <h6>Module 04</h6>
+                            <h6 class="term-text rounded p-1 mt-3">Finals</h6>
+                        </div>
+                        <div class="add-note container rounded p-2 text-secondary">
+                            <p class="add-note-text">+ New Note</p>
+                        </div>
+                    </div>
+                    <div class="notes rounded mb-3 p-2">
+                        <div class="tab text-bg-secondary rounded-pill mb-3 p-2">
+                            <h6 class="tab-text ">IT 273</h6>
+                        </div>
+                        <div class="add-note container rounded p-2 text-secondary">
+                            <p class="add-note-text">+ New Note</p>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+            </section>
+        </section>
+
+        <br>
+
+        <section class="right-section">
+            <section class="page-navigation container-fluid pt-4">
+                <h3 class="header container-fluid text-bg-secondary py-1">NAVIGATION</h3>
+                <hr>
+
+                <button type="button" class="aap-button container-fluid rounded text-light mb-1 p-2"
+                    onclick="window.location.href = 'student-dashboard-resources/HTML/AAP-Page.html'">
+                    <i class="bi bi-journal-bookmark-fill"></i>
+                    Activities, Assignments, & Projects
+                </button>
+                <button type="button" class="rqe-button container-fluid rounded text-light mb-1 p-2"
+                    onclick="window.location.href = 'student-dashboard-resources/HTML/RQE-Page.html'">
+                    <i class=" bi bi-pencil-square"></i>
+                    Recitations, Quizzes, & Examinations
+                </button>
+                <button type="button" class="nsm-button container-fluid rounded text-light mb-1 p-2"
+                    onclick="window.location.href = 'student-dashboard-resources/HTML/NSM-Page.html'">
+                    <i class="bi bi-journals"></i>
+                    Notes & Study Materials
+                </button>
+                <button type="button" class="sl-button container-fluid rounded text-light mb-1 p-2"
+                    onclick="window.location.href = 'student-dashboard-resources/HTML/SL-Page.html'">
+                    <i class="bi bi-card-list"></i>
+                    Subjects List
+                </button>
+                <button type="button" class="cs-button container-fluid rounded text-light mb-1 p-2"
+                    onclick="window.location.href = 'student-dashboard-resources/HTML/CS-Page.html'">
+                    <i class="bi bi-calendar2-week"></i>
+                    Class Schedule
+                </button>
+                <hr>
+            </section>
+
+            <br>
+
+            <section class="page-todo container-fluid" id="todo">
+                <h3 class="header container-fluid text-bg-secondary py-1">TO-DO LIST (WEEK)</h3>
+                <hr>
+
+                <section class="todo-status container-fluid">
+                    <div class="red-status rounded mb-3 p-2">
+                        <div class="red-tab rounded-pill mb-3 p-2">
+                            <i class="red-tab-icon bi bi-circle-fill"></i>
+                            <p class="tab-text ">Upcoming</p>
+                        </div>
+                        <div class="red-task container rounded mb-3 p-2">
+                            <h5>CCNA Quiz 05</h5>
+                            <h6 class="quiz-label rounded p-1 my-3">
+                                Quiz
+                            </h6>
+                            <h6>CCNA 213</h6>
+                            <h6 class="d-inline">December 12, 2023</h6>
+                        </div>
+                        <div class="red-task container rounded mb-3 p-2">
+                            <h5>PT Final Examination</h5>
+                            <h6 class="exam-label rounded p-1 my-3">
+                                Examination
+                            </h6>
+                            <h6>IT 253</h6>
+                            <h6 class="d-inline">December 15, 2023</h6>
+                        </div>
+                        <div class="add-task container rounded p-2">
+                            <p class="add-task-text">+ New Task</p>
+                        </div>
+                    </div>
+
+                    <div class="red-status rounded mb-3 p-2">
+                        <div class="red-tab rounded-pill mb-3 p-2">
+                            <i class="red-tab-icon bi bi-circle-fill"></i>
+                            <p class="tab-text ">Not Started</p>
+                        </div>
+                        <div class="red-task container rounded mb-3 p-2">
+                            <h5>DSA Laboratory Activity 05</h5>
+                            <h6 class="act-label rounded p-1 my-3">
+                                Activity</h6>
+                            <h6>IT 213</h6>
+                            <h6 class="d-inline">December 14, 2023</h6>
+                        </div>
+                        <div class="add-task container rounded p-2">
+                            <p class="add-task-text">+ New Task</p>
+                        </div>
+                    </div>
+
+                    <div class="yellow-status rounded mb-3 p-2">
+                        <div class="yellow-tab rounded-pill mb-3 p-2">
+                            <i class="yellow-tab-icon bi bi-circle-fill"></i>
+                            <p class="tab-text ">In Progress</p>
+                        </div>
+                        <div class="yellow-task container rounded mb-3 p-2">
+                            <h5>PT Final Project</h5>
+                            <h6 class="proj-label rounded p-1 my-3">Project</h6>
+                            <h6>IT 253</h6>
+                            <h6 class="d-inline">December 12, 2023</h6>
+                        </div>
+                        <div class="yellow-task container rounded mb-3 p-2">
+                            <h5>WST Final Project</h5>
+                            <h6 class="proj-label rounded p-1 my-3">Project</h6>
+                            <h6>IT 273</h6>
+                            <h6 class="d-inline">December 15, 2023</h6>
+                        </div>
+                    </div>
+
+                    <div class="green-status rounded mb-3 p-2">
+                        <div class="green-tab rounded-pill mb-3 p-2">
+                            <i class="green-tab-icon bi bi-circle-fill"></i>
+                            <p class="tab-text ">Completed</p>
+                        </div>
+                        <div class="green-task container rounded mb-3 p-2">
+                            <h5>DSA Recitation 04</h5>
+                            <h6 class="rec-label rounded p-1 my-3">Recitation</h6>
+                            <h6>IT 233</h6>
+                            <h6 class="d-inline">December 11, 2023</h6>
+                        </div>
+                        <div class="green-task container rounded mb-3 p-2">
+                            <h5>OOP Assignment 05</h5>
+                            <h6 class="ass-label rounded p-1 my-3">Assignment</h6>
+                            <h6>IT 233</h6>
+                            <h6 class="d-inline">December 15, 2023</h6>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+            </section>
+
+            <br>
+
+            <section class="page-schedule container-fluid" id="schedule">
+                <h3 class="header container-fluid text-bg-secondary py-1">SCHEDULE (TODAY)</h3>
+                <hr>
+
+                <div class="green-status container-fluid rounded mb-3 py-2">
+                    <div class="green-tab rounded mb-3 p-2">
+                        <p class="tab-text ">Thursday</p>
+                    </div>
+                    <div class="sched container-fluid rounded mb-3 p-2">
+                        <h5>Data Structures & Algorithms</h5>
+                        <h6>IT 213</h6>
+                        <h6 class="ass-label rounded p-1 my-3">Lecture</h6>
+                        <h6 class="d-inline">10:00 - 12:00</h6>
+                    </div>
+                    <div class="sched container-fluid rounded mb-3 p-2">
+                        <h5>Introduction to Networks</h5>
+                        <h6 class="exam-label rounded p-1 my-3">Laboratory</h6>
+                        <h6>CCNA 213</h6>
+                        <h6 class="d-inline">13:00 - 15:00</h6>
+                    </div>
+                </div>
+                <hr>
+            </section>
+
+            <br>
+
+            <section class="page-info container-fluid">
+                <h3 class="header container-fluid text-bg-secondary py-1">STUDENT INFO</h3>
+                <hr>
+
+                <img class="mb-4" src="student-dashboard-resources/Resources/student-photo.jpg" alt="student photo" style="width: 100%;">
+
+                <section class="student-info container-fluid">
+                    <h5 class="text-warning">NAME</h5>
+                    <p>Michael Angelo A. Ochengco</p>
+                    <h5 class="text-warning">STUDENT ID</h5>
+                    <p>2022-07543</p>
+                    <h5 class="text-warning">COURSE</h5>
+                    <p>BS Information Technology</p>
+                    <h5 class="text-warning">ACADEMIC YEAR</h5>
+                    <p>2023 - 2024</p>
+                    <h5 class="text-warning">SEMESTER</h5>
+                    <p>Semester 1</p>
+                    <h5 class="text-warning">YEAR & SECTION</h5>
+                    <p>Year 2 - Section B</p>
+                    <h5 class="text-warning">EMAIL</h5>
+                    <p><a class="text-light" href="mailto:michaelangelo.ochengco@evsu.edu.ph"
+                            style="text-decoration:none;">michaelangelo.ochengco@evsu.edu.ph</a></p>
+                </section>
+            </section>
+        </section>
+    </section>
+</body>
+
+</html>
