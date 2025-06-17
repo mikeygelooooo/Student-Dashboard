@@ -1,45 +1,46 @@
-# [STUDENT DASHBOARD](https://mikeygelooooo.github.io/student-dashboard/)
+# [Student Dashboard](https://mikeygelooooo.github.io/student-dashboard/)
 
-**EASTERN VISAYAS STATE UNIVERSITY - MAIN CAMPUS**  
-**BS INFORMATION TECHNOLOGY 2B**  
-**IT 273 - WEB SYSTEMS AND TECHNOLOGIES 1**  
-**CULMINATING ACTIVITY**
+## Project Overview
 
----
-
-## Project Title
-**Student Dashboard**
+**Student Dashboard** is a static, frontend-only web interface designed to help students visualize and organize their academic life. Built purely with HTML, CSS, and Bootstrap, it showcases how student information can be effectively presented using intuitive layouts and board views—ideal for prototypes or frontend design demonstrations.
 
 ---
 
-## Project Features
+## Project Functionalities
+
+> *Note: This project is frontend-only and does not include backend functionality.*
 
 ### 1. Main Dashboard
-- **Subjects Card View**: Displays all enrolled subjects in a card format.  
-- **To-Do List (Weekly) Board View**: A weekly overview of tasks and reminders.  
-- **Schedule (Daily) Board View**: Visualize daily class and activity schedules.  
-- **Study Materials (Current Term) Board View**: Access resources for the current term.  
-- **Student Info Section**: Displays key details about the student.  
+- Card and board-based layout for:
+  - Enrolled subjects.
+  - Weekly to-do list.
+  - Daily schedule.
+  - Current term study materials.
+  - Student profile section.
 
 ### 2. Student Tasks Page
-- **Activities (Monthly) Board View**: Track activities scheduled for the month.  
-- **Assignments (Monthly) Board View**: View and manage monthly assignments.  
-- **Projects (Monthly) Board View**: Organize ongoing and upcoming projects.  
+- Monthly board views for:
+  - Activities.
+  - Assignments.
+  - Projects.
 
 ### 3. Student Assessments Page
-- **Recitations (Monthly) Board View**: Overview of monthly recitations.  
-- **Quizzes (Monthly) Board View**: Track quizzes scheduled for the month.  
-- **Examinations (Monthly) Board View**: Manage exam dates and preparation.  
+- Monthly board views for:
+  - Recitations.
+  - Quizzes.
+  - Examinations.
 
 ### 4. Student Subjects Page
-- **Subjects (by Semester) Board View**: Categorized view of subjects by semester.  
+- Subject overview categorized by semester.
 
 ### 5. Student Schedule View
-- **Subjects (Daily) Board View**: Daily schedule of subjects.  
+- Daily subject schedule in a board format.
 
 ---
 
-## Project Resources
-- **HTML**  
-- **CSS**  
-- **Bootstrap**  
+## Technical Stack
+
+### 1. Frontend Technologies
+- HTML  
+- CSS  
+- Bootstrap
