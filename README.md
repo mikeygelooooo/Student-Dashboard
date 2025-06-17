@@ -1,4 +1,4 @@
-# [Student Dashboard - Frontend Academic Overview Tool](https://mikeygelooooo.github.io/student-dashboard/)
+# [Student Dashboard - Frontend Academic Overview Tool](https://mikeygelooooo.github.io/Student-Dashboard/)
 
 ## Project Overview
 
